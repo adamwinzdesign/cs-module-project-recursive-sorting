@@ -20,12 +20,12 @@ def merge(arrA, arrB):
             pointer_b += 1
     
     # at this point, one of the lists has been completely traversed but the other has not, so we need to add the remaining value(s) from the other list to the combined list
-        while pointer_a < len(arrA):
-            combined.append(arrA[pointer_a])
-            pointer_a += 1
-        while pointer_b < len(arrB):
-            combined.append(arrB[pointer_b])
-            pointer_b += 1
+    while pointer_a < len(arrA):
+        combined.append(arrA[pointer_a])
+        pointer_a += 1
+    while pointer_b < len(arrB):
+        combined.append(arrB[pointer_b])
+        pointer_b += 1
 
     return combined
 
